@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <title>Document</title>
+</head>
+<style>
+    
+    *{
+        box-sizing: border-box;
+        padding: 0%;
+        margin: 0%;
+      
+    }
+   
+   
+   .head {
+             background-color:white;
+             width: 98.7vw;
+             height: 12vh;
+             margin-left: 0%;
+         }
+
+    .cover-pic {
+                    background-image: url("image/kkk.jpg");
+                    background-size:cover;
+                    width:98.7vw;
+                    height:110vh;
+                    z-index: 1;
+                }
+   
+    
+    .name-1{
+        font-size: 65px;
+        color:black;
+        width:140px;
+        font-weight: 100;
+        font-family: 'Libre Baskerville', serif;
+        margin-left:9%;
+        margin-top: -6%;
+        position:fixed;
+        z-index: 2;
+      
+               }  
+
+    .name-2{
+        font-size: 25px;
+        color:#f3a30c;
+        width:140px;
+        line-height: 118%;
+        font-family: 'Nanum Gothic', sans-serif;
+        font-weight: 100;
+        margin-left:15%;
+        margin-top: -5.5%;
+        position:fixed;
+        text-decoration: underline;
+        text-decoration-color: black;
+        z-index: 2;
+       
+    }
+   
+    .box{
+        width:400px;
+        height: 230px;
+        background-color:white;
+        opacity: 0.5;
+        position:relative;
+        transform: translate(460px,-630px);
+         }
+    
+    
+    
+    .title{
+        color:black;
+        width:290px;
+        position: absolute;
+        transform: translate(520px,-830px);
+        font-weight: 100;
+        font-size: 45px;
+        text-shadow: 2px 2px 2px black;
+      
+       
+       
+    }
+    .red{
+        color:#f3a30c;
+        font-size: 60px;
+        z-index: 9;
+        text-shadow: 3px 3px 3px black;
+    
+      
+        
+    }
+
+   .border{
+       width: 350px;
+       height: 200px;
+       transform: translate(485px,-845px);
+       border-style: solid;
+       border-width: 5px; 
+       border-color:black;
+       position: absolute;
+   }
+
+  
+.box-packge{
+    transform: translateY(80px);
+    position: relative;
+   
+}
+
+.abt-img{
+    background-image:url("image/v.jpg");
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    float: right;
+    margin-left:15px;
+    border-radius: 50%;
+    box-shadow: -7px 7px  0px 5px #f3a30c;
+
+}
+.about-text{
+    color:black;
+    width: 400px;
+    height: 41px;
+    background-color:#f3a30c;
+    font-family: 'Nanum Gothic', serif;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 45px;
+    text-shadow: 3px 3px 3px white;
+    letter-spacing: 2px;
+    margin-top: -100px;
+}
+.paragraph-1{
+ 
+   font-family: 'Nanum Gothic', serif;
+   font-size: 20px;
+   text-indent: 50px;
+   letter-spacing: 2px;
+   transform: translateY(70px);
+   line-height: 30px;
+   text-align: justify;
+   width: 60%;
+}
+p::first-letter {
+  font-size: 200%;
+  color: #f3a30c;
+}
+
+.interior-txt{
+    color:black;
+    width: 420px;
+    height: 42px;
+    transform: translate(920px,70px);
+    background-color:#f3a30c;
+    font-family: 'Nanum Gothic', serif;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 45px;
+    text-shadow: 3px 3px 3px white;
+    letter-spacing: 2px;
+    margin-top: 220px;
+   
+}
+
+.interior-img{
+    background-image:url("image/kitchen.jpg");
+    width: 700px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 7px 7px  0px 5px #f3a30c;
+    position: absolute;
+  
+}
+.inter-txt{
+   font-family: 'Nanum Gothic', serif;
+   font-size: 20px;
+   width: 410px;
+   text-indent: 50px;
+   letter-spacing: 2px;
+   transform: translate(930px,135px);
+   line-height: 30px;
+   position:absolute;
+   text-transform: capitalize;
+ 
+}
+/* .arrow-mark{
+   
+    width:130px;
+    height: 28px;
+    transform:translate(1033px,220px);
+    position: absolute;
+} */
+.click{
+    width: 200px;
+    font-size: 25px;
+    transform: translate(1040px,350px);
+    position: relative;
+    }
+.click:hover{
+    font-size: 35px;
+}
+.c {
+  font-size: 150%;
+  color: #f3a30c;
+  text-decoration: underline;
+ 
+}
+.h{
+    font-size: 150%;
+    color: #f3a30c;
+    text-decoration: underline;
+}
+.Consulting{
+    color:black;
+    width: 560px;
+    height: 41px;
+    background-color:#f3a30c;
+    font-family: 'Nanum Gothic', serif;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 45px;
+    text-shadow: 2px 2px 2px white;
+    letter-spacing: 2px;
+    transform: translateY(500px);
+   
+}
+.cont-txt{
+    
+   font-family: 'Nanum Gothic', serif;
+   font-size: 20px;
+   width: 410px;
+   text-indent: 50px;
+   letter-spacing: 2px;
+   transform: translate(30px,535px);
+   line-height: 30px;
+   position:absolute;
+   text-transform: capitalize;
+ 
+}
+.cont-click{
+    width: 200px;
+    font-size: 25px;
+    transform: translate(180px,760px);
+    position: relative;
+    }
+.cont-click:hover{
+    font-size: 35px;
+}
+.cont-img{
+    background-image:url("image/v2.jpg");
+    width: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+    float: right;
+    margin-left:15px;
+    border-radius: 50%;
+    box-shadow: -7px 7px  0px 5px #f3a30c;
+    transform: translate(-10px,470px);
+}
+
+.gallery{
+    color:black;
+    width: 420px;
+    height: 42px;
+    transform: translate(920px,700px);
+    background-color:#f3a30c;
+    font-family: 'Nanum Gothic', serif;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 45px;
+    text-shadow: 3px 3px 3px white;
+    letter-spacing: 2px;
+    margin-top: 220px;
+   
+}
+
+.gallery-img{
+    background-image:url("image/kitchen.jpg");
+    width: 700px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 7px 7px  0px 5px #f3a30c;
+    transform: translate(0px,600px);
+    position:absolute;
+  
+}
+.gal-txt{
+   font-family: 'Nanum Gothic', serif;
+   font-size: 20px;
+   width: 410px;
+   text-indent: 50px;
+   letter-spacing: 2px;
+   transform: translate(930px,775px);
+   line-height: 30px;
+   position:absolute;
+   text-transform: capitalize;
+ 
+}      
+.gal-click{
+    width: 200px;
+    font-size: 25px;
+    transform: translate(1080px,1000px);
+    position: relative;
+    }
+.gal-click:hover{
+    font-size: 35px;
+}
+
+</style>
+
+<body>
+   
+     
+<div class="head"></div>
+   
+<h1 class="name-1">M</h1>
+<h1 class="name-2">Design Studio</h1>
+ 
+ 
+<div class="cover-pic"></div>
+<div class="box-packge">
+<div class="box"></div>
+
+<h1 class="title"><span class="red"> Every </span>Home Is <span class="red">Special</span></h1>
+
+<div class="border"></div>
+</div>
+
+<h1 class="about-text">About-Us</h1>
+<div class="abt-img"></div>
+<div class="paragraph-1">
+        <p>As Cosulting Civil Engineers And Contractors In Gadag Our 
+        Team Has More Than 6 Years Experience  In The Field For Residenstial And Commercial Construction.
+        We Offer Residenstial House Plans And Buildings Construction Services At Very Affordable Cost's
+        .We Have Completed More Than 30+ Projects In And Around Gadag...
+      </p><br>
+      <p> We Rely On The Demand For Residenstial Commercial Projects With This 
+          In Mind We Align As One Mean Our Work Froce And Collective Skills To Provide Our
+          Clints With Reliable And Quality Construction.
+      </p>
+</div> 
+
+<h1 class="interior-txt">INTERIOR</h1>
+<div class="interior-img"></div>
+<div class="inter-txt">
+<p> Opulence, elegance, and comfort should underlie every interior design.</p><br>
+<p>Your home is your greatest investment, make it last!
+    With clever ideas, make any room look good</p>
+</div>
+<div class="click"><span class="c">C</span>lick <span class="h">H</span>ere</div>
+<br><br>
+
+<h1 class="Consulting">Consulting & Contractors</h1>
+<div class="cont-img"></div>
+<div class="cont-txt"><p> Opulence, elegance, and comfort should underlie every interior design.</p><br>
+    <p>Your home is your greatest investment, make it last!
+        With clever ideas, make any room look good</p></div>
+        <div class="cont-click"><span class="c">C</span>lick <span class="h">H</span>ere</div>
+
+        <br><br><br><br>
+        <h1 class="gallery">Gallery</h1>
+        <div class="gallery-img"></div>
+        <div class="gal-txt"><p> Here you can see Completed projects done by M-design stdio.</p><br>
+            <p>make your dream house </p></div>
+                <div class="gal-click"><span class="c">C</span>lick <span class="h">H</span>ere</div>
+
+                <br><br><br><br><br><br><br><br>
+
+</body>
+</html>
